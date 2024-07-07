@@ -1,0 +1,394 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height: 300vh;
+    background-color: black;
+}
+
+#mb {
+    background-image: url(bg.jpg);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+#mb .box {
+    height: 130vh;
+    width: 100%;
+    opacity: 0.74;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+
+#mb #nav {
+    max-width: 180vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.logo>img {
+    padding: 20px;
+    width: 150px;
+}
+
+.butt {
+
+    /* top 2 buttons language and signin wala */
+    cursor: pointer;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    /* width: 50px; */
+    /* height: 25px; */
+}
+
+
+
+/* this portion is title of netflix   */
+
+#mtxt {
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    position: relative;
+    /* top: 0px; */
+    z-index: 2;
+    gap: 15px;
+    padding: 30px;
+}
+
+#mtxt> :nth-child(1) {
+    font-size: 27px;
+    font-weight: bolder;
+    text-align: center;
+
+
+}
+
+#mtxt>:nth-child(2) {
+    font-weight: 400px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#mtxt>:nth-child(3) {
+    font-weight: 400px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mail {
+    /* whole mail div */
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+
+    position: relative;
+    z-index: 2;
+    gap: 6px;
+
+
+
+}
+
+input {
+    /* email text */
+    border: 1px solid rgb(107, 106, 106);
+    border-radius: 5px;
+    padding: 19px 108px 18px 10px;
+    width: 250px;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-size: medium;
+}
+
+
+::placeholder {
+    /* text in email input */
+    color: white;
+    opacity: 1;
+}
+
+#btn2 {
+    /* big button of getstarted */
+    cursor: pointer;
+    padding: 12px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid red;
+    background-color: red;
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+
+.sepration {
+    /* sepration line 1 */
+    height: 8px;
+    background-color: rgb(33, 32, 32);
+}
+
+.lang {
+    /* language button */
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.4;
+}
+
+
+/* for section one */
+.sectn{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+    padding: 80px;
+}
+
+.tv{
+    position: relative;
+    
+
+}
+.tv img{
+    width:35vw;
+    /* position: absolute; */
+
+}
+.tv video{
+    z-index: -1;
+    overflow: hidden;
+    width: 94%;
+    height: 54%;
+    position: absolute;
+    top: 21%;
+    left: 3%;
+    
+    
+}
+.sec1{
+    font-size: 24px;
+    font-weight: 400px;
+}
+.h1sec{
+    font-size: 48px;
+    font-weight: 900px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.mobile{
+    position: relative;
+    
+}
+
+.mobile img{
+    width:35vw;
+}
+
+
+.downloadbox{
+    position: absolute;
+    top: 59%;
+    left: 23%;
+    
+    max-width: calc( 100% - 3rem );
+    padding: 10px 20px;
+    /* height: 2%; */
+    width: 45%;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 15px;
+}
+.strang-txt{
+    font-family: 'Familjen Grotesk', sans-serif;
+    margin: auto;
+    position: absolute;
+    left: 37%;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    padding: 2px 5px;
+}
+
+.strang-txt #col-ST{
+    font-size:large;
+    font-weight: bolder;
+    color: white;
+}
+
+
+
+.strang img {
+    height: 40%;
+    width: 30%;
+    
+}
+
+
+
+.sectn3
+{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* margin: ; */
+    max-width: 60vw;
+    padding: 80px;
+}
+.sec3{
+    font-size: 24px;
+    font-weight: 400px;
+    padding: 22px auto ;
+    width: 385px;
+    
+}
+.h1sec3{
+    font-size: 48px;
+    font-weight: 900px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+
+.faq{
+    color: white;
+    /* background: black; */
+    
+    
+}
+.faq h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:900;
+    font-size: 48px;
+    padding: 60px;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+.faq-box{
+    transition: all 0.2s ease-out;
+    background-color: #2d2d2d;
+    display: flex;
+    padding: 24px ;
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 12px auto;
+    font-size: 24px;
+    font-weight: 400;
+    /* gap: 400px; */
+    cursor: pointer;
+}
+.faq-box:hover{
+    background-color: #3f3f3f;
+}
+
+/* .faqbox svg{
+    filter: invert(1);
+} */
+.lowmail{
+    margin: 50px;
+}
+
+.mbr-mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 22px;
+    margin: 15px auto;
+    
+}
+.question h4 a{
+   color: white;
+}
+.question{
+    position: relative;
+    left: 180px;
+    /* gap: 10px; */
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+
+}
+.footer-item a{
+    color: #aaa6a6;
+    font-size: 14px;
+}
+
+
+
+footer span{
+    display: flex
+}
+footer{
+    max-width: 60vw;
+    margin: auto;
+    padding: 30px;
+    /* color: white; */
+}
+footer span a{
+
+    color: #aaa6a6;
+    font-size: 16px;
+    padding:40px 0px;
+    /* width: fit-content; */
+    
+}
+
+#language{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.4;
+    padding: 8px;
+    width: 120px;
+    border-radius: 2px;
+    font-size: 16px;
+}
